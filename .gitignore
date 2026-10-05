@@ -1,0 +1,11 @@
+# Environment & Secrets
+.env
+*.log
+
+# Archives & Builds
+*.zip
+*.tar.gz
+
+# OS Metadata
+.DS_Store
+Thumbs.db

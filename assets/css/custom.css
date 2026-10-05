@@ -1,0 +1,63 @@
+/* Olive Shoe - Luxury Brand Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --color-olive-dark: #1f2a13;
+  --color-olive-primary: #384623;
+  --color-olive-accent: #5a7038;
+  --color-gold-metallic: #d4af37;
+  --color-gold-light: #f3df95;
+  --color-gold-deep: #a68420;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #27272a;
+  background-color: #faf9f5;
+  overflow-x: hidden;
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom Gold Foil Text Gradient */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7e099 0%, #d4af37 40%, #fef3c7 60%, #b89326 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #d4af37 0%, #c19b2a 50%, #e2be4b 100%);
+}
+
+.olive-gradient-bg {
+  background: linear-gradient(145deg, #222d14 0%, #151d0c 100%);
+}
+
+/* Subtle gold border glow */
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.12);
+}
+
+.gold-border-glow:hover {
+  border-color: rgba(212, 175, 55, 0.8);
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f5f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #c5a133;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #384623;
+}
